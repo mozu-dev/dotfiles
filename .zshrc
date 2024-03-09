@@ -9,6 +9,7 @@ alias venv='python3 -m venv venv'
 alias activate='. venv/bin/activate'
 alias freeze='pip3 freeze > requirements.txt'
 alias install='pip3 install -r requirements.txt'
+alias ai='tgpt'
 
 fpath+=("$(brew --prefix)/share/zsh/site-functions")
 autoload -U promptinit; promptinit
